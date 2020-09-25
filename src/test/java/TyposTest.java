@@ -6,7 +6,7 @@ import static org.testng.Assert.assertEquals;
 public class TyposTest extends BaseTest {
 
     @Test
-    public void TyposTest() {
+    public void typosTest() {
         driver.findElement(By.linkText("Typos")).click();
         String actualResult = driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).getText();
         String expectedResult = "Sometimes you'll see a typo, other times you won't";

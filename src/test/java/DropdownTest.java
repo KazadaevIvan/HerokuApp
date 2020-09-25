@@ -10,7 +10,7 @@ import static org.testng.Assert.assertTrue;
 public class DropdownTest extends BaseTest {
 
     @Test
-    public void DropdownTest() {
+    public void dropdownTest() {
         driver.findElement(By.linkText("Dropdown")).click();
         Select dropdownList = new Select(driver.findElement(By.tagName("select")));
         List<WebElement> options = dropdownList.getOptions();
