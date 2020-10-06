@@ -1,0 +1,29 @@
+html {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+p {
+  color: red;
+  font-size: 20px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+}
+caption {
+    caption-side: bottom;
+}
+th {
+   background-color: #FF0000;
+   color: white;
+ }
+input[type=text] {
+   border: 2px solid red;
+   border-radius: 4px;
+}
