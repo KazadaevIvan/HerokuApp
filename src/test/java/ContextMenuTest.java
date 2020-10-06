@@ -14,7 +14,6 @@ public class ContextMenuTest extends BaseTest {
         actions.contextClick(driver.findElement(By.id("hot-spot"))).perform();
         Alert alert = driver.switchTo().alert();
         String expectedResult = "You selected a context menu";
-        System.out.println(alert.getText());
         assertEquals(alert.getText(), expectedResult, "Alert message should be " + expectedResult);
         alert.accept();
     }
